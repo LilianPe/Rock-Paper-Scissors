@@ -62,6 +62,8 @@ body{
     padding: 15px 25px;
     margin: 50px;
     margin-top: 20px;
+    cursor: pointer;
+    transition: opacity 0.15s;
 }
 
 .score{
@@ -89,6 +91,17 @@ body{
     font-size: 50px;
     margin: 0 30px 40px 0;
     padding: 15px 25px;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.run-btn:hover{
+    opacity: 85%;
+}
+.reset-btn:hover{
+    opacity: 85%;
 }
 
 .sidebar{
