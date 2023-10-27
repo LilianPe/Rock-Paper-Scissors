@@ -1,0 +1,118 @@
+.title{
+    color: white;
+    font-size: 80px;
+    margin-left: 50px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(54, 52, 52);
+}
+
+
+
+
+.rps-button{
+    border-radius: 100%;
+    background-color: rgb(54, 52, 52);
+    border: solid 5px white;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+.rps-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+@media(max-width: 1165px){
+    .rps-buttons{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 770px){
+    .rps-buttons{
+        grid-template-columns: 1fr;
+    }
+}
+
+.rps-img-rock{
+    width: 140px;
+    height: 150px;
+}
+.rps-img-paper{
+    width: 170px;
+    height: 170px;
+}
+.rps-img-scissors{
+    width: 220px;
+    height: 220px;
+}
+
+.reset-btn {
+    border: none;
+    background-color: white;
+    font-size: 40px;
+    width: 270px;
+    padding: 15px 25px;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.score{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.rps-game{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.589);
+    align-items: center;
+    justify-content: center;
+    margin : 50px;
+    border-radius: 10px;
+}
+
+.run{
+    margin-left: 39px;
+}
+
+.run-btn{
+    border: none;
+    font-size: 50px;
+    margin: 0 30px 40px 0;
+    padding: 15px 25px;
+}
+
+.sidebar{
+    position: fixed;
+    top:80px;
+    left: 0px;
+    color: white;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.452);
+    padding: 15px 15px 15px 10px;
+}
+
+.statut{
+    margin: 0;
+}
+
+.moove{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.js-player-moove,
+.js-computer-moove{
+    width: 50px;
+    height: 50px;
+}

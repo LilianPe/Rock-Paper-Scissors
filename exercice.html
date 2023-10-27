@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices javascript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="sidebar"><p class="statut">No game running</p></div>
+        <div class="rps-game">
+            <p class="title">Rock Paper Scissors</p>
+            <div class="rps-buttons">
+                <button onclick="play('Rock')" class="rps-button"><img class="rps-img-rock" src="img/rock.png" alt="rock"></button>
+                <button onclick="play('Paper')" class="rps-button"><img class="rps-img-paper" src="img/paper.png" alt="paper"></button>
+                <button onclick="play('Scissors')" class="rps-button"><img class="rps-img-scissors" src="img/scissors.png" alt="scissors"></button>
+            </div>
+            <p class="moove">Player moove : <img class="js-player-moove" src="" alt=""> | Computer moove : <img class="js-computer-moove" src="" alt=""> </p>
+            <p class="score">Wins : 0 | Losses : 0 | Ties : 0</p>
+            <button onclick="resetScore()" class="reset-btn">Reset Game</button>
+            <div class="run">
+                <button class="run-btn " onclick="run()">Play</button>
+                <button class="run-btn" onclick="stopGame()">Stop!</button>
+            </div>
+        </div>
+        <script src="JS/app.js"></script>
+</body>
+</html>
